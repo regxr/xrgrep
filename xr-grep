@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# ------------------------------------------------------------------------------
+# Nome					: #FIXME.sh
+#
+# Descrição			: #FIXME -- [[ DESCRIÇÃO ]].
+# Descrição			: Ex. Faz backup de pastas. Ver nas variáveis as pastas
+#								: 		envolvidas.
+#
+# Criação				: #FIXME.2018 RBR.
+# Modificação		: #FIXME.2018 RBR.
+# Atualização		: 
+# Revisão				: 
+# Versão				: 0.1
+#
+# Autor					: Regis Barbosa <regis (a) sdf org>
+# Informações 	: http://regis.sdf1.org
+#
+# Direitos			: Copyright © 2017 Regis Barbosa.
+# Licença				: GPLv3+: GNU GPL versão 3 or posterior <http://gnu.org/licenses/gpl.html>
+#								: Este é um programa livre: você está livre para modificá-lo e redistribuí-lo.
+#								: Não há GARANTIA, nos limites da lei.
+# ------------------------------------------------------------------------------
+# USO
+#			#FIXME.sh [nome do script] [mensagem de retorno]
+# ------------------------------------------------------------------------------
+# DEPENDÊNCIAS
+#			~/bin/xr-common.lib
+#			~/bin/funcoesxr
+# ------------------------------------------------------------------------------
+# ** CHANGELOG **
+# 2018-??-??: #FIXME.
+# 2017-12-21: Lançada versão 1.0.
+# 2017-12-21: Arrumado este cabeçalho.
+# ------------------------------------------------------------------------------
+
+# Criado o script em: 2017-12-21 01h12 rbr
+
+grep -nER --color=auto "$*" * /dev/null
+
